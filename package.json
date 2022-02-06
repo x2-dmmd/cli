@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a CLI",
   "bin": {
-    "x2": "bin/x2.py"
+    "x2": "bin/main.py"
   },
   "dependencies": {
     "chalk": "^4.1.2",
