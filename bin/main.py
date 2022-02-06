@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Copyright 2022 iiPython
 # x2.3b1 Codename Goos
 
