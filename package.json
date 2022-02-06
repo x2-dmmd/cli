@@ -1,13 +1,33 @@
 {
-  "name": "x2-wrapper",
+  "name": "cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "This is a CLI",
+  "bin": {
+    "x2": "bin/x2.py"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bin": "index.js"
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ansi-styles": "^4.3.0",
+    "color-name": "^1.1.4",
+    "has-flag": "^4.0.0",
+    "color-convert": "^2.0.1",
+    "supports-color": "^7.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Success!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x2-dmmd/cli.git"
+  },
+  "keywords": [
+    "x2", "xt", "x2-cli"
+  ],
+  "author": "Dm123321_31mD Gaming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x2-dmmd/cli/issues"
+  },
+  "homepage": "https://github.com/x2-dmmd/cli#readme"
 }
